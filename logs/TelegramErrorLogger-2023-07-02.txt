@@ -1,0 +1,308 @@
+============[Date]============
+[ 2023-07-02 21:48:23  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Telegram ID  tidak terdaftar dalam Server
+ref.reply_to_message_id= 
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(80): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(52): TelegramBot->send_message('Telegram ID  ti...')
+#5 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#6 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+
+============[Date]============
+[ 2023-07-02 21:48:30  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Telegram ID  tidak terdaftar dalam Server
+ref.reply_to_message_id= 
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(80): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(52): TelegramBot->send_message('Telegram ID  ti...')
+#5 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#6 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+
+============[Date]============
+[ 2023-07-02 21:52:52  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Telegram ID  tidak terdaftar dalam Server
+ref.reply_to_message_id= 
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(80): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(52): TelegramBot->send_message('Telegram ID  ti...')
+#5 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#6 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+
+============[Date]============
+[ 2023-07-02 21:53:51  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is too long
+=========[Sent Data]==========
+[ref]
+ref.update_id= 76877099
+ref.message.message_id= 320
+ref.message.from.id= 5506194900
+ref.message.from.is_bot= false
+ref.message.from.first_name= Putu
+ref.message.from.last_name= Adi
+ref.message.from.username= Putu_Adi69
+ref.message.from.language_code= en
+ref.message.chat.id= 5506194900
+ref.message.chat.first_name= Putu
+ref.message.chat.last_name= Adi
+ref.message.chat.username= Putu_Adi69
+ref.message.chat.type= private
+ref.message.date= 1688327630
+ref.message.text= /databarang
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 11
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= ---[ Data Barang ]---
+/databarang - Untuk melihat list data barang yang terdapat di dalam gudang, contoh : /databarang (polo/nike/adidas)
+
+[ 15x ] [ POLO KUDA KECIL PUTIH M ]
+[ 15x ] [ POLO KUDA KECIL NAVY M ]
+[ 15x ] [ POLO KUDA KECIL ABU M ]
+[ 15x ] [ POLO KUDA KECIL MISTY M ]
+[ 15x ] [ POLO KUDA KECIL HITAM L ]
+[ 15x ] [ POLO KUDA KECIL PUTIH L ]
+[ 15x ] [ POLO KUDA KECIL NAVY L ]
+[ 15x ] [ POLO KUDA KECIL ABU L ]
+[ 15x ] [ POLO KUDA KECIL MISTY L ]
+[ 15x ] [ POLO KUDA KECIL HITAM XL ]
+[ 15x ] [ POLO KUDA KECIL PUTIH XL ]
+[ 15x ] [ POLO KUDA KECIL NAVY XL ]
+[ 15x ] [ POLO KUDA KECIL ABU XL ]
+[ 15x ] [ POLO KUDA KECIL MISTY XL ]
+[ 15x ] [ POLO KUDA KECIL HITAM 2XL ]
+[ 15x ] [ POLO KUDA KECIL PUTIH 2XL ]
+[ 15x ] [ POLO KUDA KECIL NAVY 2XL ]
+[ 15x ] [ POLO KUDA KECIL ABU 2XL ]
+[ 15x ] [ POLO KUDA KECIL MISTY 2XL ]
+[ 15x ] [ POLO KUDA KECIL HITAM 3XL ]
+[ 15x ] [ POLO KUDA KECIL PUTIH 3XL ]
+[ 15x ] [ POLO KUDA KECIL NAVY 3XL ]
+[ 15x ] [ POLO KUDA KECIL ABU 3XL ]
+[ 15x ] [ POLO KUDA KECIL MISTY 3XL ]
+[ 15x ] [ POLO KUDA KECIL HITAM 4XL ]
+[ 15x ] [ POLO KUDA KECIL PUTIH 4XL ]
+[ 15x ] [ POLO KUDA KECIL NAVY 4XL ]
+[ 15x ] [ POLO KUDA KECIL ABU 4XL ]
+[ 15x ] [ POLO KUDA KECIL MISTY 4XL ]
+[ 30x ] [ SINGLET ADIDAS HITAM M ]
+[ 30x ] [ SINGLET ADIDAS PUTIH M ]
+[ 30x ] [ SINGLET ADIDAS NAVY M ]
+[ 30x ] [ SINGLET ADIDAS BENHUR M ]
+[ 30x ] [ SINGLET ADIDAS ABU M ]
+[ 30x ] [ SINGLET ADIDAS TURKIS M ]
+[ 30x ] [ SINGLET ADIDAS MAROON M ]
+[ 30x ] [ SINGLET ADIDAS HIJAU M ]
+[ 30x ] [ SINGLET ADIDAS KREM M ]
+[ 30x ] [ SINGLET ADIDAS HITAM L ]
+[ 30x ] [ SINGLET ADIDAS PUTIH L ]
+[ 30x ] [ SINGLET ADIDAS NAVY L ]
+[ 30x ] [ SINGLET ADIDAS BENHUR L ]
+[ 30x ] [ SINGLET ADIDAS ABU L ]
+[ 30x ] [ SINGLET ADIDAS TURKIS L ]
+[ 30x ] [ SINGLET ADIDAS MAROON L ]
+[ 30x ] [ SINGLET ADIDAS HIJAU L ]
+[ 30x ] [ SINGLET ADIDAS KREM L ]
+[ 30x ] [ SINGLET ADIDAS HITAM XL ]
+[ 30x ] [ SINGLET ADIDAS PUTIH XL ]
+[ 30x ] [ SINGLET ADIDAS NAVY XL ]
+[ 30x ] [ SINGLET ADIDAS BENHUR XL ]
+[ 30x ] [ SINGLET ADIDAS ABU XL ]
+[ 30x ] [ SINGLET ADIDAS TURKIS XL ]
+[ 30x ] [ SINGLET ADIDAS MAROON XL ]
+[ 30x ] [ SINGLET ADIDAS HIJAU XL ]
+[ 30x ] [ SINGLET ADIDAS KREM XL ]
+[ 30x ] [ SINGLET ADIDAS HITAM 2XL ]
+[ 30x ] [ SINGLET ADIDAS PUTIH 2XL ]
+[ 30x ] [ SINGLET ADIDAS NAVY 2XL ]
+[ 30x ] [ SINGLET ADIDAS BENHUR 2XL ]
+[ 30x ] [ SINGLET ADIDAS ABU 2XL ]
+[ 30x ] [ SINGLET ADIDAS TURKIS 2XL ]
+[ 30x ] [ SINGLET ADIDAS MAROON 2XL ]
+[ 30x ] [ SINGLET ADIDAS HIJAU 2XL ]
+[ 30x ] [ SINGLET ADIDAS KREM 2XL ]
+[ 30x ] [ SINGLET ADIDAS HITAM 3XL ]
+[ 30x ] [ SINGLET ADIDAS PUTIH 3XL ]
+[ 30x ] [ SINGLET ADIDAS NAVY 3XL ]
+[ 30x ] [ SINGLET ADIDAS BENHUR 3XL ]
+[ 30x ] [ SINGLET ADIDAS ABU 3XL ]
+[ 30x ] [ SINGLET ADIDAS TURKIS 3XL ]
+[ 30x ] [ SINGLET ADIDAS MAROON 3XL ]
+[ 30x ] [ SINGLET ADIDAS HIJAU 3XL ]
+[ 30x ] [ SINGLET ADIDAS KREM 3XL ]
+[ 30x ] [ SINGLET NIKE HITAM M ]
+[ 30x ] [ SINGLET NIKE PUTIH M ]
+[ 30x ] [ SINGLET NIKE NAVY M ]
+[ 30x ] [ SINGLET NIKE BENHUR M ]
+[ 30x ] [ SINGLET NIKE ABU M ]
+[ 30x ] [ SINGLET NIKE TURKIS M ]
+[ 30x ] [ SINGLET NIKE MAROON M ]
+[ 30x ] [ SINGLET NIKE HIJAU M ]
+[ 30x ] [ SINGLET NIKE KREM M ]
+[ 30x ] [ SINGLET NIKE HITAM L ]
+[ 30x ] [ SINGLET NIKE PUTIH L ]
+[ 30x ] [ SINGLET NIKE NAVY L ]
+[ 30x ] [ SINGLET NIKE BENHUR L ]
+[ 30x ] [ SINGLET NIKE ABU L ]
+[ 30x ] [ SINGLET NIKE TURKIS L ]
+[ 30x ] [ SINGLET NIKE MAROON L ]
+[ 30x ] [ SINGLET NIKE HIJAU L ]
+[ 30x ] [ SINGLET NIKE KREM L ]
+[ 30x ] [ SINGLET NIKE HITAM XL ]
+[ 30x ] [ SINGLET NIKE PUTIH XL ]
+[ 30x ] [ SINGLET NIKE NAVY XL ]
+[ 30x ] [ SINGLET NIKE BENHUR XL ]
+[ 30x ] [ SINGLET NIKE ABU XL ]
+[ 30x ] [ SINGLET NIKE TURKIS XL ]
+[ 30x ] [ SINGLET NIKE MAROON XL ]
+[ 30x ] [ SINGLET NIKE HIJAU XL ]
+[ 30x ] [ SINGLET NIKE KREM XL ]
+[ 30x ] [ SINGLET NIKE HITAM 2XL ]
+[ 30x ] [ SINGLET NIKE PUTIH 2XL ]
+[ 30x ] [ SINGLET NIKE NAVY 2XL ]
+[ 30x ] [ SINGLET NIKE BENHUR 2XL ]
+[ 30x ] [ SINGLET NIKE ABU 2XL ]
+[ 30x ] [ SINGLET NIKE TURKIS 2XL ]
+[ 30x ] [ SINGLET NIKE MAROON 2XL ]
+[ 30x ] [ SINGLET NIKE HIJAU 2XL ]
+[ 30x ] [ SINGLET NIKE KREM 2XL ]
+[ 30x ] [ SINGLET NIKE HITAM 3XL ]
+[ 30x ] [ SINGLET NIKE PUTIH 3XL ]
+[ 30x ] [ SINGLET NIKE NAVY 3XL ]
+[ 30x ] [ SINGLET NIKE BENHUR 3XL ]
+[ 30x ] [ SINGLET NIKE ABU 3XL ]
+[ 30x ] [ SINGLET NIKE TURKIS 3XL ]
+[ 30x ] [ SINGLET NIKE MAROON 3XL ]
+[ 30x ] [ SINGLET NIKE HIJAU 3XL ]
+[ 15x ] [ SINGLET NIKE KREM 3XL ]
+
+ref.reply_to_message_id= 320
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(80): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(115): TelegramBot->send_message('---[ Data Baran...')
+#5 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(60): TelegramBot->databarang(NULL)
+#6 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(50): TelegramBot->fitur()
+#7 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#8 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+
+============[Date]============
+[ 2023-07-02 21:53:56  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 76877100
+ref.callback_query.id= 5202182948754511301
+ref.callback_query.from.id= 5506194900
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Putu
+ref.callback_query.from.last_name= Adi
+ref.callback_query.from.username= Putu_Adi69
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 319
+ref.callback_query.message.from.id= 6101918818
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= Toko Putra Darma
+ref.callback_query.message.from.username= tokoputradarma_bot
+ref.callback_query.message.chat.id= 5506194900
+ref.callback_query.message.chat.first_name= Putu
+ref.callback_query.message.chat.last_name= Adi
+ref.callback_query.message.chat.username= Putu_Adi69
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1688327625
+ref.callback_query.message.text= Selamat datang di Putra Darma Telegram Bot 
+
+Bot ini dirancang untuk mempermudah admin / owner untuk melihat laporan dan databarang dan juga dapat di export ke excel 
+
+--- FITUR ---
+/databarang - Untuk melihat list data barang yang terdapat di dalam gudang, contoh : /databarang (polo/nike/adidas) 
+/laporandatabarang - untuk memunculkan laporan barang masuk dan keluarnya barang setiap Bulannya 
+ /pembelianbarang - Untuk memunculkan laporan hasil pembelian barang pada tanggal tertentu contoh : 2023-01-25/2023-02-25
+ref.callback_query.message.entities.0.offset= 182
+ref.callback_query.message.entities.0.length= 11
+ref.callback_query.message.entities.0.type= bot_command
+ref.callback_query.message.entities.1.offset= 267
+ref.callback_query.message.entities.1.length= 11
+ref.callback_query.message.entities.1.type= bot_command
+ref.callback_query.message.entities.2.offset= 299
+ref.callback_query.message.entities.2.length= 18
+ref.callback_query.message.entities.2.type= bot_command
+ref.callback_query.message.entities.3.offset= 398
+ref.callback_query.message.entities.3.length= 16
+ref.callback_query.message.entities.3.type= bot_command
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= Data Barang
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= databarang
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= Laporan Data Barang
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= laporandatabarang
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= Pembelian Barang
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= pembelianbarang
+ref.callback_query.chat_instance= -160526912956735896
+ref.callback_query.data= databarang
+
+
+[ref]
+ref.text= 
+ref.reply_to_message_id= 319
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(80): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(30): TelegramBot->send_message(NULL)
+#5 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#6 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+

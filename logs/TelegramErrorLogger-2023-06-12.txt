@@ -1,0 +1,167 @@
+============[Date]============
+[ 2023-06-12 21:49:37  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Telegram ID  tidak terdaftar dalam Server
+ref.reply_to_message_id= 
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(76): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(48): TelegramBot->send_message('Telegram ID  ti...')
+#5 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#6 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+
+============[Date]============
+[ 2023-06-12 21:50:03  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 76877027
+ref.callback_query.id= 5202182947297886863
+ref.callback_query.from.id= 5506194900
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Putu
+ref.callback_query.from.last_name= Adi
+ref.callback_query.from.username= Putu_Adi69
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 206
+ref.callback_query.message.from.id= 6101918818
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= Toko Putra Darma
+ref.callback_query.message.from.username= tokoputradarma_bot
+ref.callback_query.message.chat.id= 5506194900
+ref.callback_query.message.chat.first_name= Putu
+ref.callback_query.message.chat.last_name= Adi
+ref.callback_query.message.chat.username= Putu_Adi69
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1686599399
+ref.callback_query.message.text= Selamat datang di Putra Darma Telegram Bot 
+
+Bot ini dirancang untuk mempermudah admin / owner untuk melihat laporan dan databarang dan juga dapat di export ke excel 
+
+--- FITUR ---
+/databarang - Untuk melihat list data barang yang terdapat di dalam gudang, contoh : /databarang (polo/nike/adidas) 
+/laporandatabarang - untuk memunculkan laporan barang masuk dan keluarnya barang setiap harinya 
+ /pembelianbarang - Untuk memunculkan laporan hasil pembelian barang pada tanggal tertentu contoh : 2023-01-25/2023-02-25
+ref.callback_query.message.entities.0.offset= 182
+ref.callback_query.message.entities.0.length= 11
+ref.callback_query.message.entities.0.type= bot_command
+ref.callback_query.message.entities.1.offset= 267
+ref.callback_query.message.entities.1.length= 11
+ref.callback_query.message.entities.1.type= bot_command
+ref.callback_query.message.entities.2.offset= 299
+ref.callback_query.message.entities.2.length= 18
+ref.callback_query.message.entities.2.type= bot_command
+ref.callback_query.message.entities.3.offset= 397
+ref.callback_query.message.entities.3.length= 16
+ref.callback_query.message.entities.3.type= bot_command
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= Data Barang
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= databarang
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= Laporan Data Barang
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= laporandatabarang
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= Pembelian Barang
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= pembelianbarang
+ref.callback_query.chat_instance= -160526912956735896
+ref.callback_query.data= databarang
+
+
+[ref]
+ref.text= 
+ref.reply_to_message_id= 206
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(76): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(28): TelegramBot->send_message(NULL)
+#5 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#6 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+
+============[Date]============
+[ 2023-06-12 22:19:40  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 76877029
+ref.callback_query.id= 5202182947717652337
+ref.callback_query.from.id= 5506194900
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Putu
+ref.callback_query.from.last_name= Adi
+ref.callback_query.from.username= Putu_Adi69
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 209
+ref.callback_query.message.from.id= 6101918818
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= Toko Putra Darma
+ref.callback_query.message.from.username= tokoputradarma_bot
+ref.callback_query.message.chat.id= 5506194900
+ref.callback_query.message.chat.first_name= Putu
+ref.callback_query.message.chat.last_name= Adi
+ref.callback_query.message.chat.username= Putu_Adi69
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1686601177
+ref.callback_query.message.text= Selamat datang di Putra Darma Telegram Bot 
+
+Bot ini dirancang untuk mempermudah admin / owner untuk melihat laporan dan databarang dan juga dapat di export ke excel 
+
+--- FITUR ---
+/databarang - Untuk melihat list data barang yang terdapat di dalam gudang, contoh : /databarang (polo/nike/adidas) 
+/laporandatabarang - untuk memunculkan laporan barang masuk dan keluarnya barang setiap harinya 
+ /pembelianbarang - Untuk memunculkan laporan hasil pembelian barang pada tanggal tertentu contoh : 2023-01-25/2023-02-25
+ref.callback_query.message.entities.0.offset= 182
+ref.callback_query.message.entities.0.length= 11
+ref.callback_query.message.entities.0.type= bot_command
+ref.callback_query.message.entities.1.offset= 267
+ref.callback_query.message.entities.1.length= 11
+ref.callback_query.message.entities.1.type= bot_command
+ref.callback_query.message.entities.2.offset= 299
+ref.callback_query.message.entities.2.length= 18
+ref.callback_query.message.entities.2.type= bot_command
+ref.callback_query.message.entities.3.offset= 397
+ref.callback_query.message.entities.3.length= 16
+ref.callback_query.message.entities.3.type= bot_command
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= Data Barang
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= databarang
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= Laporan Data Barang
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= laporandatabarang
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= Pembelian Barang
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= pembelianbarang
+ref.callback_query.chat_instance= -160526912956735896
+ref.callback_query.data= databarang
+
+
+[ref]
+ref.text= 
+ref.reply_to_message_id= 209
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(81): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(30): TelegramBot->send_message(NULL)
+#5 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#6 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+

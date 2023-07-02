@@ -1,0 +1,23 @@
+============[Date]============
+[ 2023-06-04 05:14:32  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Telegram ID  tidak terdaftar dalam Server
+ref.reply_to_message_id= 
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(35): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(26): TelegramBot->send_message('Telegram ID  ti...')
+#5 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#6 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+

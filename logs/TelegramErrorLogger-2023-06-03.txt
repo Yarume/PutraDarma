@@ -1,0 +1,97 @@
+============[Date]============
+[ 2023-06-03 13:06:36  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= 123
+ref.reply_to_message_id= 
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(28): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->send_message('123')
+#5 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+
+============[Date]============
+[ 2023-06-03 13:08:31  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Testing bang
+ref.reply_to_message_id= 
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(28): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(20): TelegramBot->send_message('Testing bang')
+#5 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#6 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+
+============[Date]============
+[ 2023-06-03 13:08:35  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Testing bang
+ref.reply_to_message_id= 
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(28): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(20): TelegramBot->send_message('Testing bang')
+#5 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#6 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+
+============[Date]============
+[ 2023-06-03 13:27:32  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= 
+        Selamat datang di Putra Darma Telegram Bot 
+--- FITUR ---
+/laporan databarang (Tanggal/Bulan/tahun) ex : 2023/03/21
+/laporan pengeluaranbarang (Tanggal/Bulan/tahun) ex : 2023/03/21
+
+        
+ref.reply_to_message_id= 
+
+
+============[Trace]===========
+#0 D:\xampp\htdocs\InventorySystem\Telegram.php(3217): TelegramErrorLogger::log(Array, Array)
+#1 D:\xampp\htdocs\InventorySystem\Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\xampp\htdocs\InventorySystem\Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(38): Telegram->sendMessage(Array)
+#4 D:\xampp\htdocs\InventorySystem\application\controllers\TelegramBot.php(26): TelegramBot->send_message('\r\n        Selam...')
+#5 D:\xampp\htdocs\InventorySystem\system\core\CodeIgniter.php(532): TelegramBot->index()
+#6 D:\xampp\htdocs\InventorySystem\index.php(315): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+
