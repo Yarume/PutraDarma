@@ -10,7 +10,7 @@ class TelegramBot extends Admin_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-        $this->telegram = new Telegram('6101918818:AAEILv_IdJRKWlgMARO86kGs6Rnq-2fCi30');
+        $this->telegram = new Telegram('');
         $this->load->model('Model_Telegram');
 	}
     public function index(){
