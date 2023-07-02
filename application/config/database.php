@@ -76,9 +76,7 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	// 'username' => 'frengkyp_user_stock',
-	// 'password' => '}3!n?KCiQ4;E',
-	// 'database' => 'frengkyp_stock',
+
 	'username' => 'root',
 	'password' => '',
 	'database' => 'stock',
